@@ -1,0 +1,2832 @@
+body {
+	font-family: "Open Sans", sans-serif, Arial, Helvetica;
+}
+
+ 
+  
+
+
+/**
+ * Breadcrumbs
+ */
+
+.breadcrumbs {
+	display: none;
+}
+
+/**
+ * Basket
+ */
+
+#Add_Promo_Code {
+	margin-bottom: 10px;
+}
+
+#Form_PromoCodeForm .Actions {
+	width: 100%;
+	margin: 0;
+	margin-left: 3px;
+}
+
+#Form_PromoCodeForm .Actions input {
+	margin-left: 0;
+}
+
+.progress-basket:hover {
+	text-decoration: underline;
+}
+
+        body {
+            width: max-content;
+            padding: 0;
+            position: relative;
+        }    
+
+ 
+
+/*
+ * Listing Item
+ */
+
+.Listing_Item {
+	background: transparent !important;
+	border: 1px solid #e6e7ec;
+	margin: 15px 0;
+	min-height: 150px;
+}
+
+.Listing_Item h2 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.ListItem_PriceContainer {
+	width: 150px;
+}
+
+.ListItem_PriceContainer h3 {
+	font-size: 20px;
+	color: #333;
+	font-weight: bold;
+}
+
+.ListItem_DescriptionContainer,
+.ListItem_DescriptionContainer p {
+	font-size: 16px;
+}
+
+input[type=checkbox]:checked+label.nonWaitingListLabel,
+input[type=radio]:checked+label.nonWaitingListLabel {
+	border-radius: 6px;
+	background-color: #196638;
+}
+
+.ListItem_DescriptionContainer {
+	margin-left: 120px !important;
+}
+
+/*
+ * Buttons
+ */
+
+a.action,
+.action_btn,
+a.btn,
+button,
+input[type="submit"],
+.Actions .action,
+body a.action.basket-checkout,
+.BillingPageAdmin-actions a.action,
+input#Form_BookingFormEdit_action_editOrderItem,
+input#Form_BookingForm_action_doBookingForm,
+input#Form_BookingForm_action_doBookingFormAndConfirm,
+input#Form_BillingPageForm_action_BillingPageFormSubmit,
+input#CustomMemberLogin_LoginForm_action_dologin,
+input#Form_RedeemVoucherForm_action_doRedeemVoucherFormSubmit,
+input#Form_PaymentOptionsAndSummaryPageForm_action_PaymentOptionsAndSummaryPageFormSubmit,
+input#Form_PaymentOptionsAndSummaryPageForm_action_BackToBillingPage,
+#OAuthAuthenticator input[type=submit],
+input[type="submit"].ChildCareVouchersField__AddAnother,
+input[type="submit"]#ChildCareVouchersField__Add {
+	background-image: none;
+	border: 0;
+	background-color: #3daf2e;
+	color: #fff;
+	font-weight: 400;
+	min-width: 120px;
+}
+
+a.action:hover,
+.action_btn:hover,
+a.btn:hover,
+button:hover,
+input[type="submit"]:hover,
+.Actions .action:hover,
+button.postcode_lookup_select_button:hover,
+input#Form_BookingForm_action_doBookingForm:hover,
+.action.basket-checkout:hover,
+input#CustomMemberLogin_LoginForm_action_dologin:hover,
+input#Form_BillingPageForm_action_BillingPageFormSubmit:hover  {
+	text-decoration: underline;
+}
+
+/*
+ * Progress steps
+ */
+
+.ProcessSteps__Current {
+	display: none;
+}
+
+.ProcessSteps__Step {
+	text-align: center;
+}
+
+.ProcessSteps__Label {
+	display: block;
+	text-align: center;
+}
+
+.ProcessSteps {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.ProcessSteps__Label a {
+	color: inherit;
+}
+
+.ProcessSteps__Step--completed .ProcessSteps__Number {
+	background-color: #333;
+}
+
+.ProcessSteps__Number {
+	background-color: #b9b9b9;
+}
+
+
+/**
+ * Choose Items page
+ */
+
+/* Remove italics from description */
+
+body .ProductQuantityContainer .DescriptionContent {
+	font-style: normal;
+}
+
+.ProductQuantityContainer .DescriptionContent p {
+	font-size: 16px;
+}
+
+.NameContent {
+	font-size: 18px;
+}
+
+input[type=checkbox]:checked+label.nonWaitingListLabel:after,
+input[type=radio]:checked+label.nonWaitingListLabel:after {
+	content: "ed";
+}
+
+/**
+ * Booking Header
+ */
+
+.BookingPage h3,
+.CustomerLogin h3,
+.Form_PaymentOptionsAndSummaryPageForm .PaymentInfoHeader,
+#Form_PaymentOptionsAndSummaryPageForm .PaymentInfoHeader,
+.bookingpage-faq-container h2,
+#CustomMemberLogin_LoginForm h3 {
+	background: transparent;
+	color: #333;
+	font-size: 25px !important;
+	font-weight: bold;
+	margin-top: 40px;
+	padding: 0;
+}
+
+.Summary h2 {
+	display: none;
+}
+
+/**
+ * Billing page
+ */
+
+.BillingPage #Form_BillingPageForm h3 {
+	background: transparent;
+	color: #333;
+	font-size: 25px;
+	font-weight: bold;
+	margin-top: 40px;
+	padding: 0;
+}
+
+body #OtherInfo {
+	width: 100%;
+}
+
+.BillingPage #Form_BillingPageForm #OtherInfo .middleColumn {
+	width: 100%;
+}
+
+@media (min-width: 769px) {
+    .footer-link  .info{
+        display: flex;    
+        width: 85%;    
+        -webkit-box-pack: center;
+        margin-top: -340px;
+        margin-left: 10%;
+        -webkit-box-align: center !important;
+    }
+    
+	.BillingPage #Form_BillingPageForm #OtherInfo label {
+		width: 20%;
+	}
+	.BillingPage #Form_BillingPageForm #OtherInfo .middleColumn {
+		width: 80%;
+		padding-right: 2%;
+		box-sizing: border-box;
+	}
+	#OtherInfo .middleColumn textarea {
+		max-width: none;
+	}
+}
+
+.BillingPage #Form_BillingPageForm div.field {
+	float: none;
+	display: inline-block;
+	width: 49%;
+	margin: 0;
+}
+
+.otherInfoContainer {
+	overflow: hidden;
+}
+
+/**
+ * Inputs
+ */
+
+form input.text,
+form textarea,
+form .textajaxuniquetext,
+form select,
+select.chosenfield+.chzn-container.chzn-container-single .chzn-single {
+	border: 1px solid #e4e8ed !important;
+	padding: 0 12px;
+	border-radius: 4px;
+	min-height: 44px;
+	max-width: 350px;
+	line-height: 44px;
+}
+
+.BillingPage #Form_BillingPageForm div.field label {
+	width: 100%;
+}
+
+.BillingPage #Form_BillingPageForm div.field .middleColumn {
+	text-align: left;
+	width: 100%;
+}
+
+.BillingPage #Form_BillingPageForm input {
+	max-width: 350px;
+}
+
+form select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='%23999999'><polygon points='0,0 100,0 50,50'/></svg>") no-repeat;
+	background-origin: content-box;
+	background-size: 12px;
+	background-position: calc(100% - 10px) center;
+}
+
+.DropdownDateField-content .day,
+.DropdownDateField-content .month {
+	margin-right: 2px !important;
+}
+
+.DropdownDateField-content .month {
+	width: 50%;
+}
+
+.BillingPage #Form_BillingPageForm .prerequisites div.field label {
+	font-weight: normal;
+}
+
+form label.right {
+	font-weight: normal;
+}
+
+.BillingPage #Form_BillingPageForm div.field label {
+	width: auto;
+}
+
+.BillingPage #Form_BillingPageForm #ContactPreferenceContainer>div>div.field {
+	padding-top: 10px;
+}
+
+
+@media (max-width: 767px) {
+	.BillingPage #Form_BillingPageForm .prerequisites div.field label {
+		width: calc(100% - 55px);
+		display: inline-block;
+		font-weight: normal;
+	}
+	.checkbox {
+		margin: -3px 6px!important;
+		width: 21px !important;
+	}
+	.BillingPage #Form_BillingPageForm #ContactPreferenceContainer>div>div.field {
+		width: 100% !important;
+		display: inline-block;
+		margin: 0 0 0 15px !important;
+	}
+}
+
+/**
+ * Login
+ */
+
+#Email label {
+	display: block;
+}
+
+.CustomerLoginInner .ProcessSteps+h3 {
+	display: none;
+}
+
+#CustomMemberLogin_LoginForm_action_dologin {
+	width: auto;
+}
+
+#ForgotPassword {
+	text-align: left;
+}
+
+/**
+ * Summary page
+ */
+
+#BillingPagePayment h2,
+#ChildCareVouchersStart h2 {
+	font-size: 18px !important;
+	font-weight: bold;
+}
+
+input[type="submit"]#ChildCareVouchersField__Add {
+	margin-top: 1rem;
+}
+
+@media (max-width: 767px) {
+	ul.PaymentPageUl {
+		padding: unset;
+	}
+	div.billingsuccesspage-summary h2.larger {
+		font-size: 170%;
+	}
+}
+
+/**
+ * FAQ's
+ */
+
+.faq .Accordion {
+	border: 1px solid #e6e7ec !important;
+	border-radius: 5px;
+}
+
+.Accordion__title {
+	background: transparent;
+	font-size: 18px;
+}
+
+ul.faq {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.bookingpage-faq-container {
+	overflow: hidden;
+}
+
+.bookingpage-faq-container>a {
+	font-size: 15px;
+}
+
+
+
+/**
+ * Calendar
+ */
+.mainSectionWrapper {
+    max-width: 940px;
+    padding: 0 10px;
+    margin: 0 auto;
+    margin-bottom: 10rem;
+}
+.ui-datepicker-inline {
+	border: 1px solid #e7e7e7;
+}
+
+.ui-datepicker .ui-datepicker-header {
+	padding: 1.2em 0;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+	background: transparent;
+	border: 0;
+}
+
+.ui-widget-header {
+	background: transparent;
+}
+
+#events-container table {
+	border-collapse: collapse;
+}
+
+#calendardatepicker .ui-widget-header {
+	background: #313933;
+	color: #fff;
+	background-image: none;
+	border: none;
+	text-transform: uppercase;
+	border-radius: 6px 6px 0px 0px;
+}
+
+#calendardatepicker .ui-datepicker-prev,
+#calendardatepicker .ui-datepicker-next {
+	font-family: 'IcoMoon-Ultimate';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	font-feature-settings: "liga";
+	-webkit-font-smoothing: antialiased;
+	text-align: center;
+	line-height: 65px;
+	color: #fff;
+	cursor: pointer;
+}
+
+#calendardatepicker .ui-datepicker-next:hover,
+#calendardatepicker .ui-datepicker-prev:hover {
+	text-decoration: none;
+}
+
+#calendardatepicker .ui-datepicker-prev span,
+#calendardatepicker .ui-datepicker-next span {
+	display: none;
+}
+
+#calendardatepicker .ui-datepicker-prev:before {
+	content: "\edc0";
+}
+
+#calendardatepicker .ui-datepicker-next:before {
+	content: "\edb8";
+}
+
+#calendardatepicker {
+	height: auto !important;
+	box-shadow: 0px 30px 20px -30px black;
+}
+
+.ui-datepicker table {
+	width: calc(100% - 2rem);
+	margin: 1rem;
+}
+
+#calendardatepicker .ui-widget-content {
+	border: none;
+	background: #f1f1f1;
+	border-radius: 6px 6px 0px 0px;
+	margin-bottom: 40px;
+}
+
+.ui-datepicker-calendar tbody {
+	background: white;
+	border: solid 1px;
+	width: 100px;
+}
+
+#calendardatepicker .ui-datepicker-calendar td a,
+.ui-datepicker-calendar td span {
+	height: 80px !important;
+}
+
+.ui-state-disabled,
+.ui-widget-content .ui-state-disabled,
+.ui-widget-header .ui-state-disabled,
+.ui-state-default .ui-state-active,
+td.HighlightedGreen {
+	border: solid 1px #ccc !important;
+	width: 14.1%;
+	height: 80px !important;
+}
+
+.HighlightedGreen .ui-state-default {
+	background-color: #3daf2e !important;
+	line-height: 70px;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default,
+#calendardatepicker a.ui-state-active {
+	font-size: 14pt;
+	font-family: sans-serif;
+	font-weight: normal !important;
+	text-align: center;
+}
+
+#calendardatepicker a.ui-state-active {
+	background-color: #196638!important;
+}
+
+.HighlightedRed a {
+	background-color: #fb4453 !important;
+}
+
+@media (max-width: 767px) {
+	.ui-state-disabled,
+	.ui-widget-content .ui-state-disabled,
+	.ui-widget-header .ui-state-disabled,
+	.ui-state-default .ui-state-active,
+	td.HighlightedGreen {
+		height: 60px !important;
+	}
+	#calendardatepicker .ui-datepicker-calendar td a,
+	.ui-datepicker-calendar td span {
+		height: 60px !important;
+	}
+}
+
+/**
+ * List
+ */
+
+.event-tr-available,
+.waiting-list {
+	box-shadow: 0px 8px 10px -10px black;
+	background: #f1f1f1;
+}
+
+.EventTable input[type='checkbox']+label.waitingListLabel,
+.EventTable input[type=radio]+label.waitingListLabel {
+	width: 160px;
+	background-color: #022e47;
+	border-color: #022e47;
+}
+
+/**/
+
+
+/* footer */
+
+
+@media (min-width: 1200px) {
+    body {
+            width: auto !important;
+            padding: 0;
+            position: relative;
+        }      
+  
+	.ProcessSteps__Number {
+		width: 40px;
+		height: 40px;
+		border-radius: 50px;
+		line-height: 40px;
+		font-size: 20px;
+		background-color: #b9b9b9;
+	}
+	.ProcessSteps__Step:not(:last-of-type) .ProcessSteps__Label:after {
+		content: " ";
+		display: block;
+		height: 10px;
+		background-color: #b9b9b9;
+		position: relative;
+		bottom: 45px;
+		right: initial;
+		left: 50%;
+		z-index: -1;
+	}
+	.ProcessSteps__Step--completed .ProcessSteps__Label:after {
+		background-color: #333 !important;
+	}
+}
+
+  
+
+    @media (max-width: 425px) {
+
+        body {
+        width: max-content;
+        padding: 0;
+        position: relative;
+        }
+
+
+
+
+        .basketpage-actions .basket-continue-shopping {
+            width: max-content;
+        }
+        p.basketpage-actions {
+            float: none;
+            width: auto;
+        }
+        .basketpage-actions .basket-continue-shopping {
+            float: left;
+        }
+        .basketpage-actions .basket-checkout {
+            float: right;
+            min-width: 80px !important;
+        }
+        #CustomMemberLogin_LoginForm .basket-checkout {
+            min-width: 80px !important;
+            float: left;
+        }
+        #Email {
+            margin-bottom: 40px !important;
+        }
+            }
+
+    @media screen and (max-width: 480px) {
+
+        body {
+        width: max-content;
+        padding: 0;
+        position: relative;
+        }
+
+        
+
+        table.EventTable td {
+            height: auto !important;
+        }
+        .ListItem_ImageContainer {
+            width: 100% !important;
+        }
+        .pageSection img {
+            width: 100%;
+        }
+    }
+
+
+    @media (max-width: 767px) {
+    .footer-logo  {
+        width: 90%;
+        text-align: center;
+        padding: 105px 30px 0px 30px;
+   }
+	.ProcessSteps {
+		display: none;
+	}
+	.BookingPage h3,
+	.CustomerLogin h3,
+	.Form_PaymentOptionsAndSummaryPageForm .PaymentInfoHeader,
+	#Form_PaymentOptionsAndSummaryPageForm .PaymentInfoHeader,
+	.bookingpage-faq-container h2,
+	#CustomMemberLogin_LoginForm h3 {
+		margin-top: 20px !important;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* end bawaan */
+
+body {
+	font-family: "Open Sans", sans-serif, Arial, Helvetica;
+}
+
+ .navWrapper nav {
+     min-height: 42px;
+    line-height: 42px;
+    padding: 0;
+    position: absolute;
+    /*margin-top: -112px;*/
+    /*margin-left: 325px;*/
+}
+
+.navWrapper li {
+    float: left;
+    background: transparent;
+         display: block;
+          text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #01C1D8 !important; 
+}
+
+nav a {
+    font-size: 14px;
+   color: #01C1D8 !important; 
+    text-decoration: none;
+    line-height: 41px;
+    display: inline-block;
+    padding: 0 12px;
+}
+nav li:hover > a, nav li.current> a {
+    background: transparent;
+     font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #01C1D8; 
+     text-decoration: none;
+    
+}
+.navWrapper li:hover {
+    float: left;
+    background: transparent !important;
+}
+
+.navWrapper nav navbar li:hover > a, nav li.current> a {
+     background: transparent;
+     text-decoration: none;
+         display: block;
+   
+    text-decoration: none;
+     color: #01C1D8; 
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+ /* navbar*/
+ 
+ 
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=Open+Sans:wght@600&family=Roboto+Slab&family=Roboto:wght@300&display=swap'); 
+ 
+.headerWrapper header {
+    background: #18344f;
+}
+
+
+.toggle,
+[id^=drop] {
+	display: none;
+}
+
+/* Giving a background-color to the nav container. */
+.headerWrapper header .app-header { 
+	margin:0;
+	padding: 0;
+	/*background:rgba(0, 33, 65, 0.9);*/
+	
+}
+
+.headerWrapper header .app-header {
+	display: flex;
+    justify-content: space-between;
+	padding-bottom: 1em;
+    padding: 20px 0px 20px 0px;
+}
+.headerWrapper header .app-header .Navlogo{
+    position: relative;
+}
+.headerWrapper header .app-header .menuheader{
+	display: flex;
+    justify-content: space-between;
+    flex-direction: column !important;
+}
+.headerWrapper header .app-header .Menu-Nav-header{
+    width: 100%;
+    margin-bottom: -20px;
+    border-bottom: 2px solid rgb(175, 182, 188);
+}
+
+.headerWrapper header .app-header .Menu-Nav-footer {
+	/*border-top: 2px solid rgba(225, 225, 225, 0.5);*/
+    /* padding-right: 1em; */
+    margin-right: 4rem !important;
+	padding-top: 10px !important;
+}
+
+.headerWrapper header .app-header .Menu-Nav-footer li a{
+	content: none;
+    display: block;   
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-family: 'GFS Didot', serif !important;
+    font-weight: 500;	
+}
+.headerWrapper header .app-header .Menu-Nav-footer li ul li  a {
+	font-size: 14px !important;
+	font-weight: bold;
+	text-transform: capitalize !important;
+	width: 100%;
+}
+
+
+
+#navLogo {
+	display: block;
+	padding: 0 0px;
+	float: left;
+	font-size:20px;
+	line-height: 0px;
+}
+
+#navPhone {
+	display: block;
+	padding: 0 0px;
+	float: right;
+	font-size:0px;
+	line-height: 0px;
+}
+
+/* Since we'll have the "ul li" "float:left"
+ * we need to add a clear after the container. */
+
+ /* nav:after {
+	content:"";
+	display:table;
+	clear:both;
+} */
+
+/* Removing padding, margin and "list-style" from the "ul",
+ * and adding "position:reltive" */
+ .headerWrapper header .app-header ul {
+	float: right;
+	padding:0;
+	margin:0;
+	list-style: none;
+	display: flex;
+    /*justify-content: space-between;*/
+    /*flex-direction: column !important;*/
+
+	}
+	
+/* Positioning the navigation items inline */
+.headerWrapper header .app-header ul li {
+	margin: 0px;
+	display:inline-block;
+	float: left;
+	}
+
+/* Styling the links */
+.headerWrapper header .app-header a {
+	
+	display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #01C1D8;
+    /* text-transform: uppercase; */
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+
+    /* min-width: 20px;
+    padding: 8px 50px 8px 50px !important; */
+   
+
+	.headerWrapper header .app-header ul li ul li a { 
+	background: #01C1D8;
+	color: #Fff;	
+	display: block;
+    border-bottom: 1px dashed #ffffff;   
+    text-transform: lowercase !important;
+	text-align: center;
+	width:100%;
+}
+
+.headerWrapper header .app-header ul li ul li a:hover { 
+	background: #Fff;
+	color: #01C1D8;
+}
+
+/* Background color change on Hover */
+
+/* Hide Dropdowns by Default
+ * and giving it a position of absolute */
+ .headerWrapper header .app-header ul ul {
+	display: none;
+	position: absolute; 
+	/* has to be the same number as the "line-height" of "nav a" */
+	/* top: 14px;  */
+}
+	
+/* Display Dropdowns on Hover */
+.headerWrapper header .app-header ul li:hover > ul {
+	display:inherit;
+}
+	
+/* First Tier Dropdown */
+.headerWrapper header .app-header ul ul li {
+	width:170px;
+	float:none;
+	display:list-item;
+	position: relative;
+}
+
+/* Second, Third and more Tiers	
+ * We move the 2nd and 3rd etc tier dropdowns to the left
+ * by the amount of the width of the first tier.
+*/
+.headerWrapper header .app-header ul ul ul li {
+	position: relative;
+	top:-60px;
+	/* has to be the same number as the "width" of "nav ul ul li" */ 
+	left:170px; 
+}
+
+	
+/* Change ' +' in order to change the Dropdown symbol */
+/* li > a:after { content:  ' >'; }
+li > a:only-child:after { content: ''; } */
+
+
+/* Media Queries
+--------------------------------------------- */
+
+@media all and (max-width : 768px) {
+   .headerWrapper header .app-header ul{
+    /*float: none !important;*/
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    /*display: unset !important;*/
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*flex-direction: column !important*/
+  }
+  
+	.headerWrapper header .app-header .Menu-Nav-footer li a {
+   
+    display: none;
+}
+
+.headerWrapper header .app-header .Menu-Nav-footer{
+		border-top: 0 solid rgba(225, 225, 225, 0.5);
+    	padding-right: 0em;
+    	margin-right: 0rem !important;
+    /* padding-top: 10px !important; */
+}
+	
+.headerWrapper header .app-header .menuheader{
+	
+    position: absolute;
+    margin-top: 130px;
+}
+
+	#logo {
+		display: block;
+		padding: 0;
+		width: 100%;
+		text-align: center;
+		float: none;
+	}
+
+	/* nav {
+		margin: 0;
+	} */
+
+	/* Hide the navigation menu by default */
+	/* Also hide the  */
+	.toggle + a,
+	.tzmenu {
+		display: none;
+	}
+
+	/* Styling the toggle label */
+	.toggle {
+		display: block;
+		background:#01C1D8;
+		padding:14px 20px;	
+		color:#FFF;
+		font-size:17px;
+		text-decoration:none;
+		border:none;
+	}
+
+	.toggle:hover {
+		background:rgba(0, 33, 65, 0.9);
+	}
+
+	/* Display Dropdown when clicked on Parent Lable */
+	[id^=drop]:checked + ul {
+		display: block;
+	}
+
+	/* Change menu item's width to 100% */
+	.headerWrapper header .app-header a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #Fff;
+    /* text-transform: uppercase; */
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.headerWrapper header .app-header ul li {
+		display: block;
+		width: 100%;
+		}
+		.headerWrapper header .app-header ul li {
+		margin: 0px;
+		display: inline-block;
+		float: left;
+		background: #01C1D8;
+		color: #Fff;
+	}
+
+	.headerWrapper header .app-header ul li ul li a {
+		background: #01C1D8;
+		color: #Fff;
+		display: block;
+		border-bottom: 1px dashed #ffffff;
+		text-transform: lowercase !important;
+		text-align: left;
+		width: initial;
+		margin-left:20px;
+		}
+		.headerWrapper header .app-header ul ul .toggle,
+		.headerWrapper header .app-header ul ul a {
+		padding: 0 40px;
+	}
+
+	.headerWrapper header .app-header ul ul ul a {
+		padding: 0 80px;
+	}
+
+	.headerWrapper header .app-header a:hover,
+	.headerWrapper header .app-header ul ul ul a {
+		background-color: #000000;
+	}
+  
+	.headerWrapper header .app-header ul li ul li .toggle,
+	.headerWrapper header .app-header ul ul a,
+	.headerWrapper header .app-header ul ul ul a{
+		padding:14px 20px;	
+		color:#FFF;
+		font-size:17px; 
+	}
+  
+  
+	.headerWrapper header .app-header ul li ul li .toggle,
+	.headerWrapper header .app-header ul ul a {
+		background-color: #212121; 
+	}
+
+	/* Hide Dropdowns by Default */
+	.headerWrapper header .app-header ul ul {
+		float: none;
+		position:static;
+		color: #ffffff;
+		font-size: 12px;
+		/* has to be the same number as the "line-height" of "tznav a" */
+	}
+	
+		
+		
+	/* Hide menus on hover */
+	.headerWrapper header .app-header ul ul li:hover > ul,
+	nav ul li:hover > ul {
+		display: none;
+	}
+	nav li:hover > a, nav li.current> a {
+    /* background: #; */
+    color: #01C1D8;
+    text-decoration: none;
+    line-height: 41px;
+    display: inline-block;
+    padding: 0 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+	/* Fisrt Tier Dropdown */
+	.headerWrapper header .app-header ul ul li {
+		display: block;
+		width: 100%;
+	}
+
+	.headerWrapper header .app-header ul ul ul li {
+		position: static;
+		/* has to be the same number as the "width" of "nav ul ul li" */ 
+
+	}
+
+}
+
+@media all and (max-width : 64px) {
+
+	.headerWrapper header .app-header ul li {
+		display:block;
+		width: 94%;
+	}
+
+}
+ 
+ 
+ 
+ /* end navbar*/
+  
+
+
+/**
+ * Breadcrumbs
+ */
+
+.breadcrumbs {
+	display: none;
+}
+
+/**
+ * Basket
+ */
+
+#Add_Promo_Code {
+	margin-bottom: 10px;
+}
+
+#Form_PromoCodeForm .Actions {
+	width: 100%;
+	margin: 0;
+	margin-left: 3px;
+}
+
+#Form_PromoCodeForm .Actions input {
+	margin-left: 0;
+}
+
+.progress-basket:hover {
+	text-decoration: underline;
+}
+
+        body {
+            width: max-content;
+            padding: 0;
+            position: relative;
+        }    
+
+ 
+
+/*
+ * Listing Item
+ */
+
+.Listing_Item {
+	background: transparent !important;
+	border: 1px solid #e6e7ec;
+	margin: 15px 0;
+	min-height: 150px;
+}
+
+.Listing_Item h2 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.ListItem_PriceContainer {
+	width: 150px;
+}
+
+.ListItem_PriceContainer h3 {
+	font-size: 20px;
+	color: #333;
+	font-weight: bold;
+}
+
+.ListItem_DescriptionContainer,
+.ListItem_DescriptionContainer p {
+	font-size: 16px;
+}
+
+input[type=checkbox]:checked+label.nonWaitingListLabel,
+input[type=radio]:checked+label.nonWaitingListLabel {
+	border-radius: 6px;
+	background-color: #196638;
+}
+
+.ListItem_DescriptionContainer {
+	margin-left: 120px !important;
+}
+
+/*
+ * Buttons
+ */
+
+a.action,
+.action_btn,
+a.btn,
+button,
+input[type="submit"],
+.Actions .action,
+body a.action.basket-checkout,
+.BillingPageAdmin-actions a.action,
+input#Form_BookingFormEdit_action_editOrderItem,
+input#Form_BookingForm_action_doBookingForm,
+input#Form_BookingForm_action_doBookingFormAndConfirm,
+input#Form_BillingPageForm_action_BillingPageFormSubmit,
+input#CustomMemberLogin_LoginForm_action_dologin,
+input#Form_RedeemVoucherForm_action_doRedeemVoucherFormSubmit,
+input#Form_PaymentOptionsAndSummaryPageForm_action_PaymentOptionsAndSummaryPageFormSubmit,
+input#Form_PaymentOptionsAndSummaryPageForm_action_BackToBillingPage,
+#OAuthAuthenticator input[type=submit],
+input[type="submit"].ChildCareVouchersField__AddAnother,
+input[type="submit"]#ChildCareVouchersField__Add {
+	background-image: none;
+	border: 0;
+	background-color: #3daf2e;
+	color: #fff;
+	font-weight: 400;
+	min-width: 120px;
+}
+
+a.action:hover,
+.action_btn:hover,
+a.btn:hover,
+button:hover,
+input[type="submit"]:hover,
+.Actions .action:hover,
+button.postcode_lookup_select_button:hover,
+input#Form_BookingForm_action_doBookingForm:hover,
+.action.basket-checkout:hover,
+input#CustomMemberLogin_LoginForm_action_dologin:hover,
+input#Form_BillingPageForm_action_BillingPageFormSubmit:hover  {
+	text-decoration: underline;
+}
+
+/*
+ * Progress steps
+ */
+
+.ProcessSteps__Current {
+	display: none;
+}
+
+.ProcessSteps__Step {
+	text-align: center;
+}
+
+.ProcessSteps__Label {
+	display: block;
+	text-align: center;
+}
+
+.ProcessSteps {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.ProcessSteps__Label a {
+	color: inherit;
+}
+
+.ProcessSteps__Step--completed .ProcessSteps__Number {
+	background-color: #333;
+}
+
+.ProcessSteps__Number {
+	background-color: #b9b9b9;
+}
+
+
+/**
+ * Choose Items page
+ */
+
+/* Remove italics from description */
+
+body .ProductQuantityContainer .DescriptionContent {
+	font-style: normal;
+}
+
+.ProductQuantityContainer .DescriptionContent p {
+	font-size: 16px;
+}
+
+.NameContent {
+	font-size: 18px;
+}
+
+input[type=checkbox]:checked+label.nonWaitingListLabel:after,
+input[type=radio]:checked+label.nonWaitingListLabel:after {
+	content: "ed";
+}
+
+/**
+ * Booking Header
+ */
+
+.BookingPage h3,
+.CustomerLogin h3,
+.Form_PaymentOptionsAndSummaryPageForm .PaymentInfoHeader,
+#Form_PaymentOptionsAndSummaryPageForm .PaymentInfoHeader,
+.bookingpage-faq-container h2,
+#CustomMemberLogin_LoginForm h3 {
+	background: transparent;
+	color: #333;
+	font-size: 25px !important;
+	font-weight: bold;
+	margin-top: 40px;
+	padding: 0;
+}
+
+.Summary h2 {
+	display: none;
+}
+
+/**
+ * Billing page
+ */
+
+.BillingPage #Form_BillingPageForm h3 {
+	background: transparent;
+	color: #333;
+	font-size: 25px;
+	font-weight: bold;
+	margin-top: 40px;
+	padding: 0;
+}
+
+body #OtherInfo {
+	width: 100%;
+}
+
+.BillingPage #Form_BillingPageForm #OtherInfo .middleColumn {
+	width: 100%;
+}
+
+@media (min-width: 769px) {
+    .footer-link  .info{
+        display: flex;    
+        width: 85%;    
+        -webkit-box-pack: center;
+        margin-top: -340px;
+        margin-left: 10%;
+        -webkit-box-align: center !important;
+    }
+    
+	.BillingPage #Form_BillingPageForm #OtherInfo label {
+		width: 20%;
+	}
+	.BillingPage #Form_BillingPageForm #OtherInfo .middleColumn {
+		width: 80%;
+		padding-right: 2%;
+		box-sizing: border-box;
+	}
+	#OtherInfo .middleColumn textarea {
+		max-width: none;
+	}
+}
+
+.BillingPage #Form_BillingPageForm div.field {
+	float: none;
+	display: inline-block;
+	width: 49%;
+	margin: 0;
+}
+
+.otherInfoContainer {
+	overflow: hidden;
+}
+
+/**
+ * Inputs
+ */
+
+form input.text,
+form textarea,
+form .textajaxuniquetext,
+form select,
+select.chosenfield+.chzn-container.chzn-container-single .chzn-single {
+	border: 1px solid #e4e8ed !important;
+	padding: 0 12px;
+	border-radius: 4px;
+	min-height: 44px;
+	max-width: 350px;
+	line-height: 44px;
+}
+
+.BillingPage #Form_BillingPageForm div.field label {
+	width: 100%;
+}
+
+.BillingPage #Form_BillingPageForm div.field .middleColumn {
+	text-align: left;
+	width: 100%;
+}
+
+.BillingPage #Form_BillingPageForm input {
+	max-width: 350px;
+}
+
+form select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='%23999999'><polygon points='0,0 100,0 50,50'/></svg>") no-repeat;
+	background-origin: content-box;
+	background-size: 12px;
+	background-position: calc(100% - 10px) center;
+}
+
+.DropdownDateField-content .day,
+.DropdownDateField-content .month {
+	margin-right: 2px !important;
+}
+
+.DropdownDateField-content .month {
+	width: 50%;
+}
+
+.BillingPage #Form_BillingPageForm .prerequisites div.field label {
+	font-weight: normal;
+}
+
+form label.right {
+	font-weight: normal;
+}
+
+.BillingPage #Form_BillingPageForm div.field label {
+	width: auto;
+}
+
+.BillingPage #Form_BillingPageForm #ContactPreferenceContainer>div>div.field {
+	padding-top: 10px;
+}
+
+
+@media (max-width: 767px) {
+	.BillingPage #Form_BillingPageForm .prerequisites div.field label {
+		width: calc(100% - 55px);
+		display: inline-block;
+		font-weight: normal;
+	}
+	.checkbox {
+		margin: -3px 6px!important;
+		width: 21px !important;
+	}
+	.BillingPage #Form_BillingPageForm #ContactPreferenceContainer>div>div.field {
+		width: 100% !important;
+		display: inline-block;
+		margin: 0 0 0 15px !important;
+	}
+}
+
+/**
+ * Login
+ */
+
+#Email label {
+	display: block;
+}
+
+.CustomerLoginInner .ProcessSteps+h3 {
+	display: none;
+}
+
+#CustomMemberLogin_LoginForm_action_dologin {
+	width: auto;
+}
+
+#ForgotPassword {
+	text-align: left;
+}
+
+/**
+ * Summary page
+ */
+
+#BillingPagePayment h2,
+#ChildCareVouchersStart h2 {
+	font-size: 18px !important;
+	font-weight: bold;
+}
+
+input[type="submit"]#ChildCareVouchersField__Add {
+	margin-top: 1rem;
+}
+
+@media (max-width: 767px) {
+	ul.PaymentPageUl {
+		padding: unset;
+	}
+	div.billingsuccesspage-summary h2.larger {
+		font-size: 170%;
+	}
+}
+
+/**
+ * FAQ's
+ */
+
+.faq .Accordion {
+	border: 1px solid #e6e7ec !important;
+	border-radius: 5px;
+}
+
+.Accordion__title {
+	background: transparent;
+	font-size: 18px;
+}
+
+ul.faq {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.bookingpage-faq-container {
+	overflow: hidden;
+}
+
+.bookingpage-faq-container>a {
+	font-size: 15px;
+}
+
+
+
+/**
+ * Calendar
+ */
+.mainSectionWrapper {
+    max-width: 940px;
+    padding: 0 10px;
+    margin: 0 auto;
+    margin-bottom: 10rem;
+}
+.ui-datepicker-inline {
+	border: 1px solid #e7e7e7;
+}
+
+.ui-datepicker .ui-datepicker-header {
+	padding: 1.2em 0;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+	background: transparent;
+	border: 0;
+}
+
+.ui-widget-header {
+	background: transparent;
+}
+
+#events-container table {
+	border-collapse: collapse;
+}
+
+#calendardatepicker .ui-widget-header {
+	background: #313933;
+	color: #fff;
+	background-image: none;
+	border: none;
+	text-transform: uppercase;
+	border-radius: 6px 6px 0px 0px;
+}
+
+#calendardatepicker .ui-datepicker-prev,
+#calendardatepicker .ui-datepicker-next {
+	font-family: 'IcoMoon-Ultimate';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	font-feature-settings: "liga";
+	-webkit-font-smoothing: antialiased;
+	text-align: center;
+	line-height: 65px;
+	color: #fff;
+	cursor: pointer;
+}
+
+#calendardatepicker .ui-datepicker-next:hover,
+#calendardatepicker .ui-datepicker-prev:hover {
+	text-decoration: none;
+}
+
+#calendardatepicker .ui-datepicker-prev span,
+#calendardatepicker .ui-datepicker-next span {
+	display: none;
+}
+
+#calendardatepicker .ui-datepicker-prev:before {
+	content: "\edc0";
+}
+
+#calendardatepicker .ui-datepicker-next:before {
+	content: "\edb8";
+}
+
+#calendardatepicker {
+	height: auto !important;
+	box-shadow: 0px 30px 20px -30px black;
+}
+
+.ui-datepicker table {
+	width: calc(100% - 2rem);
+	margin: 1rem;
+}
+
+#calendardatepicker .ui-widget-content {
+	border: none;
+	background: #f1f1f1;
+	border-radius: 6px 6px 0px 0px;
+	margin-bottom: 40px;
+}
+
+.ui-datepicker-calendar tbody {
+	background: white;
+	border: solid 1px;
+	width: 100px;
+}
+
+#calendardatepicker .ui-datepicker-calendar td a,
+.ui-datepicker-calendar td span {
+	height: 80px !important;
+}
+
+.ui-state-disabled,
+.ui-widget-content .ui-state-disabled,
+.ui-widget-header .ui-state-disabled,
+.ui-state-default .ui-state-active,
+td.HighlightedGreen {
+	border: solid 1px #ccc !important;
+	width: 14.1%;
+	height: 80px !important;
+}
+
+.HighlightedGreen .ui-state-default {
+	background-color: #3daf2e !important;
+	line-height: 70px;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default,
+#calendardatepicker a.ui-state-active {
+	font-size: 14pt;
+	font-family: sans-serif;
+	font-weight: normal !important;
+	text-align: center;
+}
+
+#calendardatepicker a.ui-state-active {
+	background-color: #196638!important;
+}
+
+.HighlightedRed a {
+	background-color: #fb4453 !important;
+}
+
+@media (max-width: 767px) {
+	.ui-state-disabled,
+	.ui-widget-content .ui-state-disabled,
+	.ui-widget-header .ui-state-disabled,
+	.ui-state-default .ui-state-active,
+	td.HighlightedGreen {
+		height: 60px !important;
+	}
+	#calendardatepicker .ui-datepicker-calendar td a,
+	.ui-datepicker-calendar td span {
+		height: 60px !important;
+	}
+}
+
+/**
+ * List
+ */
+
+.event-tr-available,
+.waiting-list {
+	box-shadow: 0px 8px 10px -10px black;
+	background: #f1f1f1;
+}
+
+.EventTable input[type='checkbox']+label.waitingListLabel,
+.EventTable input[type=radio]+label.waitingListLabel {
+	width: 160px;
+	background-color: #022e47;
+	border-color: #022e47;
+}
+
+
+
+    @media (min-width: 992px) {
+        
+        body {
+            width: auto !important;
+            padding: 0;
+            position: relative;
+        }   
+     
+}
+@media (min-width: 1200px) {
+    body {
+            width: auto !important;
+            padding: 0;
+            position: relative;
+        }      
+   
+    /* .footer-link {
+        padding: 80px 0px 0px 80px;
+    } */
+ 
+	.ProcessSteps__Number {
+		width: 40px;
+		height: 40px;
+		border-radius: 50px;
+		line-height: 40px;
+		font-size: 20px;
+		background-color: #b9b9b9;
+	}
+	.ProcessSteps__Step:not(:last-of-type) .ProcessSteps__Label:after {
+		content: " ";
+		display: block;
+		height: 10px;
+		background-color: #b9b9b9;
+		position: relative;
+		bottom: 45px;
+		right: initial;
+		left: 50%;
+		z-index: -1;
+	}
+	.ProcessSteps__Step--completed .ProcessSteps__Label:after {
+		background-color: #333 !important;
+	}
+}
+
+    @media (max-width: 768px) {
+
+    
+	.DropdownDateField-content .day {
+		width: 29% !important;
+	}
+	.DropdownDateField-content .month {
+		width: 42% !important;
+	}
+	.DropdownDateField-content .year {
+		width: 30% !important;
+	}
+	#purchaser_Dob select {
+		padding: 0 12px;
+	}
+}
+
+
+
+
+    @media (max-width: 425px) {
+
+        body {
+        width: max-content;
+        padding: 0;
+        position: relative;
+        }
+
+
+
+
+        .basketpage-actions .basket-continue-shopping {
+            width: max-content;
+        }
+        p.basketpage-actions {
+            float: none;
+            width: auto;
+        }
+        .basketpage-actions .basket-continue-shopping {
+            float: left;
+        }
+        .basketpage-actions .basket-checkout {
+            float: right;
+            min-width: 80px !important;
+        }
+        #CustomMemberLogin_LoginForm .basket-checkout {
+            min-width: 80px !important;
+            float: left;
+        }
+        #Email {
+            margin-bottom: 40px !important;
+        }
+            }
+
+    @media screen and (max-width: 480px) {
+
+        body {
+        width: max-content;
+        padding: 0;
+        position: relative;
+        }
+
+        
+
+        table.EventTable td {
+            height: auto !important;
+        }
+        .ListItem_ImageContainer {
+            width: 100% !important;
+        }
+        .pageSection img {
+            width: 100%;
+        }
+    }
+
+
+    @media (max-width: 767px) {
+
+  
+
+	.ProcessSteps {
+		display: none;
+	}
+	.BookingPage h3,
+	.CustomerLogin h3,
+	.Form_PaymentOptionsAndSummaryPageForm .PaymentInfoHeader,
+	#Form_PaymentOptionsAndSummaryPageForm .PaymentInfoHeader,
+	.bookingpage-faq-container h2,
+	#CustomMemberLogin_LoginForm h3 {
+		margin-top: 20px !important;
+	}
+}
+
+
+
+
+/* footer */
+
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&display=swap');
+ .footerWrapper footer {
+	line-height: 0;
+	position: relative;
+}
+body {
+	padding: 0;
+	position: relative;
+}
+footer {
+	max-width: 100%;
+	padding: 0;
+	position: relative;
+}
+.footerWrapper .footer-img {
+	position: relative;
+	padding: 2em 0px 0px;
+	background: #ffffff;
+	margin-left: -80px;
+	margin-top: -81px;
+}
+.footerWrapper .footer-img img {
+	width: 100%;
+	height: auto;
+	margin-bottom: -5px;
+}
+.footer-link {
+	background: #002141;
+}
+.footer-link .logo-media {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column !important;
+	padding-top: 5rem;
+}
+.footer-link .logo-media.mobile {
+	display:none;
+}
+.footer-link .logo-media .logo {
+	text-align: center;
+}
+.footer-link .logo-media .social-media .icons-social-media .social-item {
+	display: inline-block;
+	padding-right: 0.8em;
+}
+.fab {
+	font-size: 25px;
+	color: #ffffff;
+}
+.fab:hover {
+	color: #01C1D8;
+}
+.footer-link .contact-us {
+	position: relative;
+	line-height: .8;
+}
+@media (min-width: 992px) {
+	/* 3*/
+	.ListItem_ImageContainer {
+		width: 110% !important;
+		height: auto !important;
+		position: initial !important;
+		top: 10px;
+		left: 10px;
+	}
+	/*end*/
+	header {
+		padding: 0 10px;
+		margin: 0 auto;
+	}
+	body {
+		width: auto !important;
+		padding: 0;
+		position: relative;
+	}
+	.footer-link .info {
+		display: flex;
+		width: 85% !important;
+		-webkit-box-pack: center;
+		margin-top: -340px;
+		margin-left: 10%;
+		-webkit-box-align: center !important;
+	}
+	.footer-link .MyContact {
+		padding-top: 5rem;
+		padding-bottom: 3rem;
+		display: grid;
+		grid: auto-flow dense / 300px 1fr;
+		grid-gap: 2.5rem;
+	}
+	.footer-link {
+		padding: 80px 0px 0px 80px;
+	}
+	.footer-link .logo-media {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start !important;
+		flex-direction: column !important;
+		-webkit-box-align: start !important;
+		padding-top: 0rem !important;
+	}
+	.footer-link .logo-media .social-media h5 {
+		font-style: italic;
+		color: #01C1D8;
+		font-family: 'GFS Didot', serif;
+		font-weight: 600;
+		font-size: 24px;
+		position: relative;
+		margin-bottom: 0.5em;
+		margin-bottom: 1.7rem;
+		margin-top: 0rem !important;
+		margin-left: 0% !important;
+	}
+	.footer-link .logo-media .social-media .icons-social-media {
+		margin-left: 0% !important;
+	}
+	.footer-link .info {
+		display: flex;
+		width: 100%;
+		-webkit-box-pack: center;
+		margin-top: 0px !important;
+		margin-left: 0% !important;
+	}
+	.footer-logo {
+		width: 90%;
+		text-align: center;
+		padding: 0px 0px 0px 60px;
+	}
+	.footer-link .contact-us {
+		margin-left: 30px !important;
+	}
+	.footer-logo {
+		width: 90%;
+		text-align: center;
+		padding: 0px 0px 0px 60px !important;
+	}
+	.footer-logo .logo-carousel .logo-viewport .logo-ft .img-slider1 {
+		width: 126px !important;
+	}
+	.footer-logo .logo-carousel .logo-viewport .logo-ft .img-slider2 {
+		width: 99px !important;
+	}
+	.footer-logo .logo-carousel .logo-viewport .logo-ft .img-slider3 {
+		width: 147px !important;
+	}
+	.footer-logo .logo-carousel .logo-viewport .logo-ft .img-slider4,
+	.footer-logo .logo-carousel .logo-viewport .logo-ft .img-slider5 {
+		width: 181px !important;
+	}
+	.footer-logo .logo-carousel .logo-viewport .logo-ft {
+		display: inline-block;
+		-webkit-box-align: center;
+		align-items: center;
+		width: 19.5% !important;
+		-webkit-box-flex: 1;
+		flex: 1;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+	}
+	.footer-logo .logo-carousel .logo-viewport {
+		border-top: 1px solid #60696b !important;
+		border-bottom: 1px solid #60696b !important;
+		padding: 3rem 0px !important;
+	}
+	.footer-link .contact-us {
+		width: 75%;
+	}
+	.footer-link .contact-us,
+	.footer-link .quick-links {
+		margin-top: -35px;
+	}
+	.footer-link .contact-us h5,
+	.footer-link .quick-links h5 {
+		color: #01C1D8;
+		font-family: 'GFS Didot', serif;
+		font-weight: 600;
+		font-size: 20px;
+		line-height: 20px;
+		position: relative;
+		padding-bottom: 0.8em;
+		margin-bottom: 0.5em;
+	}
+	.footer-link .contact-us .contact,
+	.footer-link .contact-us .admissions {
+		margin-top: 32px;
+		line-height: 0.5;
+	}
+	.footer-link .contact-us .contact span,
+	.footer-link .contact-us .admissions span {
+		font-style: italic;
+		color: #ffffff;
+		font-family: 'GFS Didot', serif;
+		opacity: 0.4;
+		display: block;
+		padding-bottom: 0.3em;
+		font-size: 18px;
+		margin-bottom: 16px;
+	}
+	.footer-link .contact-us .contact p {
+		color: #ffffff;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 14px;
+	}
+	.footer-link .contact-us p a {
+		text-decoration: none;
+		color: #ffffff;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 14px;
+		transition: all 0.2s;
+	}
+	.footer-link .contact-us p a:hover,
+	.footer-link .quick-links .links-quick span a:hover {
+		color: #01C1D8 !important;
+	}
+	.footer-link .contact-us h5::after,
+	.footer-link .quick-links h5::after {
+		content: '';
+		border-bottom: 1px solid #01C1D8;
+		position: absolute;
+		width: 10%;
+		left: 0px;
+		bottom: 0px;
+	}
+	.footer-link .quick-links .links-quick {
+		display: inline-grid;
+		margin-top: 22px;
+	}
+	.footer-link .quick-links .links-quick span a {
+		text-decoration: none;
+		color: #ffffff;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 14px;
+		line-height: 2.13;
+		transition: all 0.2s;
+	}
+	.footer-logo .logo-carousel .logo-viewport {
+		border-top: 1px solid #60696b !important;
+		border-bottom: 1px solid #60696b !important;
+		padding: 2rem 0px;
+	}
+	.footer-logo .logo-carousel .logo-viewport .logo-ft {
+		display: inline-block;
+		-webkit-box-align: center;
+		align-items: center;
+		width: 17%;
+		-webkit-box-flex: 1;
+		flex: 1;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+	}
+	.copyCopyright {
+		padding: 1.5em 0 0;
+		color: #ffffff;
+	}
+	.copyCopyright {
+		margin-right: auto;
+		margin-left: auto;
+		position: relative;
+	}
+	.copyCopyright .footer-Copyright {
+		display: flex;
+		-webkit-box-pack: justify;
+		justify-content: space-between;
+	}
+	.copyCopyright .footer-Copyright .copy-Copyright {
+		padding-left: 5rem;
+		font-family: 'GFS Didot', serif;
+		font-size: 16px;
+		opacity: 0.4;
+	}
+	.copyCopyright .footer-Copyright .policy {
+		display: inline-flex;
+		padding-right: 5rem;
+	}
+	.copyCopyright .footer-Copyright .policy a {
+		padding-right: 1.5rem;
+		text-decoration: none;
+		color: #ffffff;
+		font-family: 'GFS Didot', serif;
+		transition: all 0.2s;
+	}
+	.copyCopyright .footer-Copyright .policy a:hover {
+		color: #01C1D8;
+	}
+	.footerWrapper {
+		padding-bottom: 5rem;
+		background: #002141;
+		position: relative;
+		margin-top: 15rem;
+	}
+	.footerWrapper .footer-link {
+		background: #002141;
+	}
+}
+
+
+
+@media (min-width: 1200px) {
+	body {
+		width: auto !important;
+		padding: 0;
+		margin:0;
+		position: relative;
+	}
+	.footer-logo .logo-carousel .logo-viewport .logo-ft .img-slider1 {
+		width: 126px !important;
+	}
+	.footer-logo .logo-carousel .logo-viewport .logo-ft .img-slider2 {
+		width: 99px !important;
+	}
+	.footer-logo .logo-carousel .logo-viewport .logo-ft .img-slider3 {
+		width: 147px !important;
+	}
+	.footer-logo .logo-carousel .logo-viewport .logo-ft .img-slider4,
+	.footer-logo .logo-carousel .logo-viewport .logo-ft .img-slider5 {
+		width: 181px !important;
+	}
+	.footer-logo {
+		width: 90%;
+		text-align: center;
+		padding: 0px 0px 0px 60px !important;
+	}
+	.footer-logo {
+		width: 90%;
+		text-align: center;
+		padding: 0px 0px 0px 60px;
+	}
+	.footer-link .info {
+		display: flex;
+		width: 100%;
+		-webkit-box-pack: center;
+		margin-top: 0px !important;
+		margin-left: 0% !important;
+	}
+	.footer-link .logo-media .social-media h5 {
+		font-style: italic;
+		color: #01C1D8;
+		font-family: 'GFS Didot', serif;
+		font-weight: 600;
+		font-size: 24px;
+		position: relative;
+		margin-bottom: 0.5em;
+		margin-bottom: 1.7rem;
+		margin-top: 0rem !important;
+	}
+	.footer-link .logo-media .social-media .icons-social-media {
+		margin-left: 0% !important;
+	}
+	/* .footer-link {
+        padding: 80px 0px 0px 80px;
+    } */
+	.footer-link .logo-media {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start !important;
+		flex-direction: column !important;
+		-webkit-box-align: start !important;
+		padding-top: 0rem !important;
+	}
+	.footer-link .MyContact {
+		padding-top: 5rem;
+		padding-bottom: 3rem;
+		display: grid;
+		grid: auto-flow dense / 400px 1fr;
+	}
+	.ProcessSteps__Number {
+		width: 40px;
+		height: 40px;
+		border-radius: 50px;
+		line-height: 40px;
+		font-size: 20px;
+		background-color: #b9b9b9;
+	}
+	.ProcessSteps__Step:not(:last-of-type) .ProcessSteps__Label:after {
+		content: " ";
+		display: block;
+		height: 10px;
+		background-color: #b9b9b9;
+		position: relative;
+		bottom: 45px;
+		right: initial;
+		left: 50%;
+		z-index: -1;
+	}
+	.ProcessSteps__Step--completed .ProcessSteps__Label:after {
+		background-color: #333 !important;
+	}
+}
+/* EDITTING */
+@media (max-width: 991px) {
+	body {
+		margin:0 !important;
+		width:auto !important;
+	}
+	
+	.footer-link {
+		padding-left: 0;
+	}
+	.footerWrapper .footer-img {
+		margin-top:0;
+		margin-left:0;
+	}
+	.footer-link .logo-media {
+		flex-direction: column !important;
+	}
+	.footer-link .logo-media .logo, .footer-link .logo-media .social-media {
+		width:100%;
+	}
+	.footer-link .info {
+		width:100% !important;
+		margin-left: 0 !important;
+	}
+	.footer-link .logo-media .social-media {
+		text-align: center;
+	}
+	.footer-link .logo-media .social-media.desktop {
+		display:none;
+	}
+	.footer-link .logo-media.mobile {
+		padding-top:1rem !important;
+		display:block;
+	}
+	.footer-link .logo-media .social-media h5, .footer-link .logo-media .social-media .icons-social-media {
+		display:inline-block;
+		margin:0 !important;
+		margin-top:5px !important;
+	}
+	.footer-link .logo-media .social-media h5 {
+		margin-right:10px !important;
+	}
+	.footer-link .logo-media .social-media .icons-social-media {
+		margin-top:15px !important;
+	}
+	.footer-link .logo-media .social-media a {
+		display:block;
+	}
+	.footer-link .info {
+		margin-top: 50px !important;
+	}
+	
+	.footer-logo {
+		width:100% !important;
+		padding:0 !important;
+		padding-top:50px !important;
+	}
+	.footer-logo .logo-carousel {
+		padding:0 20px !important;
+	}
+	.footer-logo .logo-carousel .logo-viewport {
+		width:100%  !important;
+		margin:0 !important;
+		font-size:0;
+	}
+	.footer-logo .logo-carousel .logo-viewport .logo-ft {
+		display:block;
+		width:33.3333% !important;
+		margin-bottom:20px;
+	}
+}
+/* */
+@media (max-width: 768px) {
+
+	.footer-link .logo-media .social-media h5 {
+		font-style: italic;
+		color: #01C1D8;
+		font-family: 'GFS Didot', serif;
+		font-weight: 600;
+		font-size: 24px;
+		position: relative;
+		margin-bottom: 0.5em;
+		margin-bottom: 1.7rem;
+		margin-top: 23rem;
+		margin-left: 32%;
+	}
+	/* EDITTING */
+	.footer-link .logo-media {
+		flex-direction:column !important;
+	}
+	.footer-link .logo-media .logo, .footer-link .logo-media .social-media {
+		width:100%;
+	}
+	/* */
+	.footer-link .logo-media .social-media .icons-social-media {
+		margin-left: 42%;
+		margin-top: -4%;
+	}
+	.footer-link .info {
+		display: flex;
+		width: 50%;
+		-webkit-box-pack: center;
+		margin-top: -340px;
+		margin-left: 25%;
+		-webkit-box-align: center !important;
+	}
+	.footer-link .contact-us {
+		width: 85%;
+	}
+	.footer-link .contact-us,
+	.footer-link .quick-links {
+		margin-top: -35px;
+	}
+	.footer-link .contact-us h5,
+	.footer-link .quick-links h5 {
+		color: #01C1D8;
+		font-family: 'GFS Didot', serif;
+		font-weight: 600;
+		font-size: 20px;
+		line-height: 20px;
+		position: relative;
+		padding-bottom: 0.8em;
+		margin-bottom: 0.5em;
+	}
+	.footer-link .contact-us .contact,
+	.footer-link .contact-us .admissions {
+		margin-top: 32px;
+		line-height: 0.5;
+	}
+	.footer-link .contact-us .contact span,
+	.footer-link .contact-us .admissions span {
+		font-style: italic;
+		color: #ffffff;
+		font-family: 'GFS Didot', serif;
+		opacity: 0.4;
+		display: block;
+		padding-bottom: 0.3em;
+		font-size: 18px;
+		margin-bottom: 16px;
+	}
+	.footer-link .contact-us .contact p {
+		color: #ffffff;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 14px;
+		/* EDITTING */
+		line-height: 0.88rem;
+		margin: 6px 0;
+		/* */
+	}
+	.footer-link .contact-us p a {
+		text-decoration: none;
+		color: #ffffff;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 14px;
+		transition: all 0.2s;
+	}
+	.footer-link .contact-us p a:hover,
+	.footer-link .quick-links .links-quick span a:hover {
+		color: #01C1D8 !important;
+	}
+	.footer-link .contact-us h5::after,
+	.footer-link .quick-links h5::after {
+		content: '';
+		border-bottom: 1px solid #01C1D8;
+		position: absolute;
+		width: 10%;
+		left: 0px;
+		bottom: 0px;
+	}
+	.footer-link .quick-links .links-quick {
+		display: inline-grid;
+		margin-top: 22px;
+	}
+	.footer-link .quick-links .links-quick span a {
+		text-decoration: none;
+		color: #ffffff;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 14px;
+		line-height: 2.13;
+		transition: all 0.2s;
+	}
+	.footer-logo .logo-carousel .logo-viewport {
+		border-top: 1px solid #60696b !important;
+		border-bottom: 1px solid #60696b !important;
+		padding: 2rem 0px;
+	}
+	.footer-logo .logo-carousel .logo-viewport .logo-ft {
+		display: inline-block;
+		-webkit-box-align: center;
+		align-items: center;
+		width: 17%;
+		-webkit-box-flex: 1;
+		flex: 1;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+	}
+	.copyCopyright {
+		padding: 1.5em 0 0;
+		color: #ffffff;
+	}
+	.copyCopyright {
+		margin-right: auto;
+		margin-left: auto;
+		position: relative;
+	}
+	.copyCopyright .footer-Copyright {
+		display: flex;
+		-webkit-box-pack: justify;
+		justify-content: space-between;
+	}
+	.copyCopyright .footer-Copyright .copy-Copyright {
+		padding-left: 5rem;
+		font-family: 'GFS Didot', serif;
+		font-size: 16px;
+		opacity: 0.4;
+	}
+	.copyCopyright .footer-Copyright .policy {
+		display: inline-flex;
+		padding-right: 5rem;
+	}
+	.copyCopyright .footer-Copyright .policy a {
+		padding-right: 1.5rem;
+		text-decoration: none;
+		color: #ffffff;
+		font-family: 'GFS Didot', serif;
+		transition: all 0.2s;
+	}
+	.copyCopyright .footer-Copyright .policy a:hover {
+		color: #01C1D8;
+	}
+	.footerWrapper {
+		padding-bottom: 5rem;
+		background: #002141;
+		position: relative;
+		margin-top: 15rem;
+	}
+	.footerWrapper .footer-link {
+		background: #002141;
+	}
+	.footer-logo .logo-carousel .logo-viewport .logo-ft .img-slider1 {
+		width: 86px;
+	}
+	.footer-logo .logo-carousel .logo-viewport .logo-ft .img-slider2 {
+		width: 60px;
+	}
+	.footer-logo .logo-carousel .logo-viewport .logo-ft .img-slider3 {
+		width: 107px;
+	}
+	.footer-logo .logo-carousel .logo-viewport .logo-ft .img-slider4,
+	.footer-logo .logo-carousel .logo-viewport .logo-ft .img-slider5 {
+		width: 111px;
+	}
+	/* EDITTING */
+	.footer-link .contact-us {
+		margin-left: 0;
+	}
+	.footer-link .contact-us, .footer-link .quick-links {
+		width: 50%;
+		padding:0 7%;
+	}
+	/* */
+	.footer-logo {
+		width: 90%;
+		text-align: center;
+		padding: 105px 0px 0px 60px;
+	}
+	.DropdownDateField-content .day {
+		width: 29% !important;
+	}
+	.DropdownDateField-content .month {
+		width: 42% !important;
+	}
+	.DropdownDateField-content .year {
+		width: 30% !important;
+	}
+	#purchaser_Dob select {
+		padding: 0 12px;
+	}
+}
+@media (min-width: 767px) {
+	.footer-link .logo-media .social-media h5 {
+		font-style: italic;
+		color: #01C1D8;
+		font-family: 'GFS Didot', serif;
+		font-weight: 600;
+		font-size: 24px;
+		position: relative;
+		margin-bottom: 0.5em;
+		margin-bottom: 1.7rem;
+		margin-top: 23rem;
+		margin-left: 32%;
+	}
+	.footer-link .logo-media .social-media .icons-social-media {
+		margin-left: 42%;
+		margin-top: -4%;
+	}
+	.footer-link .info {
+		display: flex;
+		width: 50%;
+		-webkit-box-pack: center;
+		margin-top: -340px;
+		margin-left: 25%;
+		-webkit-box-align: center !important;
+	}
+	.footer-link .contact-us {
+		width: 85%;
+	}
+	.footer-link .contact-us,
+	.footer-link .quick-links {
+		margin-top: -35px;
+	}
+	.footer-link .contact-us h5,
+	.footer-link .quick-links h5 {
+		color: #01C1D8;
+		font-family: 'GFS Didot', serif;
+		font-weight: 600;
+		font-size: 20px;
+		line-height: 20px;
+		position: relative;
+		padding-bottom: 0.8em;
+		margin-bottom: 0.5em;
+	}
+	.footer-link .contact-us .contact,
+	.footer-link .contact-us .admissions {
+		margin-top: 32px;
+		line-height: 0.5;
+	}
+	.footer-link .contact-us .contact span,
+	.footer-link .contact-us .admissions span {
+		font-style: italic;
+		color: #ffffff;
+		font-family: 'GFS Didot', serif;
+		opacity: 0.4;
+		display: block;
+		padding-bottom: 0.3em;
+		font-size: 18px;
+		margin-bottom: 16px;
+	}
+	.footer-link .contact-us .contact p {
+		color: #ffffff;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 14px;
+	}
+	.footer-link .contact-us p a {
+		text-decoration: none;
+		color: #ffffff;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 14px;
+		transition: all 0.2s;
+	}
+	.footer-link .contact-us p a:hover,
+	.footer-link .quick-links .links-quick span a:hover {
+		color: #01C1D8 !important;
+	}
+	.footer-link .contact-us h5::after,
+	.footer-link .quick-links h5::after {
+		content: '';
+		border-bottom: 1px solid #01C1D8;
+		position: absolute;
+		width: 10%;
+		left: 0px;
+		bottom: 0px;
+	}
+	.footer-link .quick-links .links-quick {
+		display: inline-grid;
+		margin-top: 22px;
+	}
+	.footer-link .quick-links .links-quick span a {
+		text-decoration: none;
+		color: #ffffff;
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 14px;
+		line-height: 2.13;
+		transition: all 0.2s;
+	}
+	.footer-logo .logo-carousel .logo-viewport {
+		border-top: 1px solid #60696b !important;
+		border-bottom: 1px solid #60696b !important;
+		padding: 2rem 0px;
+	}
+	.footer-logo .logo-carousel .logo-viewport .logo-ft {
+		display: inline-block;
+		-webkit-box-align: center;
+		align-items: center;
+		width: 17%;
+		-webkit-box-flex: 1;
+		flex: 1;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+	}
+	.copyCopyright {
+		padding: 1.5em 0 0;
+		color: #ffffff;
+	}
+	.copyCopyright {
+		margin-right: auto;
+		margin-left: auto;
+		position: relative;
+	}
+	.copyCopyright .footer-Copyright {
+		display: flex;
+		-webkit-box-pack: justify;
+		justify-content: space-between;
+	}
+	.copyCopyright .footer-Copyright .copy-Copyright {
+		padding-left: 5rem;
+		font-family: 'GFS Didot', serif;
+		font-size: 16px;
+		opacity: 0.4;
+	}
+	.copyCopyright .footer-Copyright .policy {
+		display: inline-flex;
+		padding-right: 5rem;
+	}
+	.copyCopyright .footer-Copyright .policy a {
+		padding-right: 1.5rem;
+		text-decoration: none;
+		color: #ffffff;
+		font-family: 'GFS Didot', serif;
+		transition: all 0.2s;
+	}
+	.copyCopyright .footer-Copyright .policy a:hover {
+		color: #01C1D8;
+	}
+	.footerWrapper {
+		padding-bottom: 5rem;
+		background: #002141;
+		position: relative;
+	}
+	.footerWrapper .footer-link {
+		background: #002141;
+	}
+	.footer-logo .logo-carousel .logo-viewport .logo-ft .img-slider1 {
+		width: 86px;
+	}
+	.footer-logo .logo-carousel .logo-viewport .logo-ft .img-slider2 {
+		width: 60px;
+	}
+	.footer-logo .logo-carousel .logo-viewport .logo-ft .img-slider3 {
+		width: 107px;
+	}
+	.footer-logo .logo-carousel .logo-viewport .logo-ft .img-slider4,
+	.footer-logo .logo-carousel .logo-viewport .logo-ft .img-slider5 {
+		width: 111px;
+	}
+	.footer-link .contact-us {
+		margin-left: 14%;
+	}
+	.footer-link .quick-links {
+		width: 50%;
+	}
+	.footer-logo {
+		width: 90%;
+		text-align: center;
+		padding: 105px 0px 0px 60px;
+	}
+}
+@media (max-width: 425px) {
+	body {
+		width: max-content;
+		padding: 0;
+		position: relative;
+	}
+	.basketpage-actions .basket-continue-shopping {
+		width: max-content;
+	}
+	p.basketpage-actions {
+		float: none;
+		width: auto;
+	}
+	.basketpage-actions .basket-continue-shopping {
+		float: left;
+	}
+	.basketpage-actions .basket-checkout {
+		float: right;
+		min-width: 80px !important;
+	}
+	#CustomMemberLogin_LoginForm .basket-checkout {
+		min-width: 80px !important;
+		float: left;
+	}
+	#Email {
+		margin-bottom: 40px !important;
+	}
+}
+@media screen and (max-width: 480px) {
+	body {
+		width: max-content;
+		padding: 0;
+		position: relative;
+	}
+	table.EventTable td {
+		height: auto !important;
+	}
+	.ListItem_ImageContainer {
+		width: 100% !important;
+		/*3*/
+	}
+	.pageSection img {
+		width: 100%;
+	}
+	/* 3*/
+	.ListItem_ImageContainer {
+		min-width: 120px;
+		min-height: 120px;
+		position: relative !important;
+		top: 10px;
+		left: 10px;
+	}
+	/* EDITTING */
+	.footer-link .info {
+		flex-direction: column !important;
+	}
+	.footer-link .contact-us, .footer-link .quick-links {
+		width:86%;
+	}
+	.footer-link .quick-links {
+		margin-top:10px;
+	}
+	.copyCopyright .footer-Copyright {
+		flex-direction:column !important;
+	}
+	.copyCopyright .footer-Copyright .copy-Copyright {
+		margin-bottom:10px;
+	}
+	.copyCopyright .footer-Copyright .copy-Copyright,
+	.copyCopyright .footer-Copyright .policy {
+		width:100%;
+		padding:0 !important;
+		text-align:center !important;
+		align-items: center !important;
+		justify-content: center !important;
+	}
+	.copyCopyright .footer-Copyright .copy-Copyright a, .copyCopyright .footer-Copyright .policy a {
+		padding:0 10px;
+	}
+	.footer-logo .logo-carousel .logo-viewport .logo-ft {
+		width:50% !important;
+	}
+	/* */
+	/*end*/
+}
+@media (max-width: 767px) {
+	.footer-logo {
+		width: 90%;
+		text-align: center;
+		padding: 105px 30px 0px 30px;
+	}
+	.ProcessSteps {
+		display: none;
+	}
+	.BookingPage h3,
+	.CustomerLogin h3,
+	.Form_PaymentOptionsAndSummaryPageForm .PaymentInfoHeader,
+	#Form_PaymentOptionsAndSummaryPageForm .PaymentInfoHeader,
+	.bookingpage-faq-container h2,
+	#CustomMemberLogin_LoginForm h3 {
+		margin-top: 20px !important;
+	}
+}
+
